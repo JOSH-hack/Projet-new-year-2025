@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic sans MS', cursive, sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+}
+.content {
+    width: 100%;
+    position: absolute;
+    color: white;
+    top: 45%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.content h1 {
+    margin-top: 80px;
+    font-size: 80px;
+    font-weight: 800;
+    z-index: -4;   
+}
+button {
+    width: px;
+    padding: 30px;
+    margin: 20px 50px;
+    text-align: center;
+    border-radius: 25px;
+    color: white;
+    border: 12px;
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: 800;
+}
+button:hover {
+    background: white;
+    transition: 0.5s;
+}
+button:hover {
+    color: black;
+}
+.banner video {
+    position: absolute;
+    bottom: auto;
+    top: auto;
+    right: auto;
+    left: auto;
+    min-height: 100vh;
+    min-width: 100%;
+    z-index: -1;
+}
+@media(min-aspect-ratio){
+    .banner video{
+       max-width: 120%;
+       max-height: 100vh;
+    }
+    
+}
